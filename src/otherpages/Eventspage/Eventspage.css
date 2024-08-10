@@ -152,7 +152,16 @@ body{
     @media only screen and (max-width: 600px) {
       .investor-forge {
         padding: 1rem 2rem;
+        background-color: red;
       }
+      
+    }
+    @media only screen and (max-width: 600px) {
+      .e-title {
+        font-size:1px;
+       
+      }
+      
     }
     .card1{
       background-image: url("Rectangle_69[1].png");

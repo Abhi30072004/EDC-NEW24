@@ -49,7 +49,7 @@ const NavBar = () => {
                 <Link spy={true} smooth={true} to="/Team" onClick={handleClick}>
                     <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded transition">Team</li>
                 </Link>
-                <Link spy={true} smooth={true} to="App" onClick={handleClick}>
+                <Link spy={true} smooth={true} to="/App" onClick={handleClick}>
                     <li className="my-4 py-4 border-b border-transparent hover:bg-transparent hover:rounded transition">App</li>
                 </Link>
             </ul>

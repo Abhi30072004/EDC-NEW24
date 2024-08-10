@@ -31,12 +31,12 @@ function Eventspage(){
         <div className="flex flex-col items-center w-screen">
             <div className=" eventbg h-screen text-white ">
                 <div className="h-screen md:text-[50px] backdrop-brightness-50 flex flex-col justify-center items-center text-center">
-                <h1 className="text-5xl p-14 font-semibold leading-tight ">Discover Unforgettable Experiences: Your Gateway to Exclusive Club Events</h1>
-                <button className="text-3xl  pt-3 pl-10 pr-10 pb-3 mt-6 border border-white rounded hover:bg-white hover:scale-125 hover:text-black">Let's Start</button>
+                <h1 className="text-5xl p-14 font-semibold leading-tight">Discover Unforgettable Experiences: Your Gateway to Exclusive Club Events</h1>
+                <button className="text-3xl  pt-3 pl-10 pr-10 pb-3 mt-6 border border-white rounded hover:bg-white hover:scale-125 hover:text-black hover:duration-500">Let's Start</button>
                 </div>
             </div>
             <div className="h-32 w-1/2 bg-black rounded-3xl text-white flex items-center justify-center recbox1">
-                <h1 className="text-center text-5xl  ">INVESTOR’S FORGE</h1>
+                <h1 className="text-center text-5xl investor-forge">INVESTOR’S FORGE</h1>
             </div>
             <div className="bg-white w-screen overflow-hidden">
                 <div className="mt-[150px] text-center text-slate-700">

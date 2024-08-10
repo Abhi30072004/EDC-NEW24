@@ -50,6 +50,8 @@
     background-color: whitesmoke;
     backdrop-filter: blur(100px);
     color: black;
+    transition-duration:1000ms ;
+    scale: 1.2;
 }
 @media screen and (max-width:500px) {
     .heading{   
@@ -64,10 +66,13 @@
     .h1{
         width: auto;
         height: auto;
+        font-size: 2rem;
+        font-weight: 700;
 
     }
     .button{
         font-size: 1em;
+        margin-top: 50px;
        
     }
     .b{
@@ -103,6 +108,22 @@
     left: 0;
     margin-top: 3rem; /* mt-[3rem] corresponds to margin-top: 3rem */
   }
+  .app_blob1 {
+    position: absolute;
+    width: 20rem; /* w-64 corresponds to 16rem */
+    z-index: -30; /* -z-30 corresponds to z-index: -30 */
+    left: 0;
+    margin-top: 3rem; /* mt-[3rem] corresponds to margin-top: 3rem */
+  }
+  .app_blob2 {
+    position: absolute;
+    width: 16rem; /* w-64 corresponds to 16rem */
+    z-index: -30; /* -z-30 corresponds to z-index: -30 */
+    right: 0;
+    bottom: 0;
+    margin-top: 200rem; /* mt-[170rem] corresponds to margin-top: 170rem */
+  }
+
 .blob2 {
     position: absolute;
     width: 16rem; /* w-64 corresponds to 16rem */

@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.mains{
+    background-color: rgb(235, 235, 235);
+}
+
+*{
+    font-family: inter;
+    
+}
+
 .sir{
-    border-radius: 500px;
-    border: 1px solid #000;
+    border-radius: 100%;
+    border: 1px solid #ffffff;
     width: 320px;
-height: 320px;
-flex-shrink: 0;
+    height: 320px;
+    flex-shrink: 0;
 
 }
 
@@ -25,6 +36,11 @@ backdrop-filter: blur(8.699999809265137px);
 -webkit-backdrop-filter: blur(10px);
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 margin-bottom: 3rem;
+
+}
+
+.prof:hover{
+    
 }
 
 .text{
